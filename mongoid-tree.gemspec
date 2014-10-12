@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
 
   s.files         = Dir.glob('{lib,spec}/**/*') + %w(LICENSE README.md Rakefile Gemfile .rspec)
 
-  s.add_runtime_dependency('mongoid', ['<= 4.0', '>= 3.0'])
+  s.add_runtime_dependency('mongoid', ['>= 3.0'])
   s.add_runtime_dependency('mongoid-siblings', ['~> 0.1.0'])
   s.add_runtime_dependency('mongoid-ordering', ['~> 0.1.0'])
 
